@@ -1,0 +1,28 @@
+/* custom css for home.html */
+.title h2 {
+    color: darkgreen;
+    text-align: center;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    font: italic 2.5em "Montserrat", serif;
+}
+
+.card-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: ivory;
+    text-decoration: none;
+    background-color: hsla(80, 33%, 55%, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    font: italic 1.5em "Montserrat", serif;
+    font-weight: bold;
+    margin-top: 3rem;
+ }
+
+.card-group-item-success.card-group-item-action:hover,
+.card-group-item-success.card-group-item-action:focus {
+  color: darkolivegreen;
+  background-color:  lightgoldenrodyellow;
+}
+
